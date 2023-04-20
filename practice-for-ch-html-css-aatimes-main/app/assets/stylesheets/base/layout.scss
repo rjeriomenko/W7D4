@@ -7,16 +7,44 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: whitesmoke;
+	align-items: center;
+}
+
+.main-nav ul{
+	display: flex;
+	align-items: center;
+}
+
+li:hover {
+	color: rgb(129, 129, 138);
+}
+
+li {
+	padding: 2px;
+	letter-spacing: 10px;
+}
+
+
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	background-color: rgb(109, 109, 209);
+	// border-color: red;
+	color: white;
+	font-weight: 900;
+	padding: 5px;
+	border-radius: 3px;
 	// transition:
 	// font-family:
 	// text-transform:
@@ -24,8 +52,17 @@ button {
 	// text-align:
 }
 
+#lasso {
+	color: black;
+	background-color: white;
+}
+
+#lasso:hover {
+	color: red;
+}
+
 button:hover {
-	// background-color:
+	background-color: rgb(69, 69, 126);
 	// border-color:
 }
 
